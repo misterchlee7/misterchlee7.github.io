@@ -2442,7 +2442,7 @@ header.header-appear nav.header-dark, header.sticky nav.navbar-fixed-top.header-
 nav.navbar.bootsnav .btn-hamburger { padding: 0;}
 nav.navbar.bootsnav .btn-hamburger .navbar-toggle { margin: 0; top: -2px;}
 
-.hamburger-menu-wrepper {position: fixed; top: 0; right: 0; width: 35%; height: 100%; background: #000; z-index: -10005; padding: 55px 80px; display: table; opacity: 0; visibility: collapse;}
+.hamburger-menu-wrepper {position: fixed; top: 0; right: 0; width: 35%; height: 100%; background: rgb(102, 102, 102); z-index: -10005; padding: 55px 80px; display: table; opacity: 0; visibility: collapse;}
 .menu-middle {display: table; height: 100%; width: 90%; margin: 0 auto; opacity: 0;}
 .hamburger-menu-links {float: left; list-style: none; margin: 0; padding: 0; width: 100%; font-size: 52px; line-height: 55px; opacity: 0;}
 .hamburger-menu-links li{float: left; margin-bottom: 36px; width: 100%;}
@@ -3751,6 +3751,9 @@ aside .latest-post li figure {width: 75px;}
 @-webkit-keyframes up-down-animation {0%   {opacity:1;  top:0px;} 25%  {opacity:.4;   top:2px;} 50%  {opacity:.3;  top:4px;} 75%  {opacity:.2;  top:5px;} 100% {opacity:0;  top:9px;} }
 @keyframes up-down-animation {0%   {opacity:1;  top:0px;} 25%  {opacity:.4;   top:4px;} 50%  {opacity:.3;  top:8px;} 75%  {opacity:.2;  top:12px;} 100% {opacity:0;  top:16px;} }
 
+.animation-box{
+    overflow: scroll;
+}
 
 /* ===================================
    demo page css
